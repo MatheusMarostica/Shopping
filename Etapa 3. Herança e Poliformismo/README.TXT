@@ -1,12 +1,19 @@
-----------------------------------------------------------------------------
-Este é o arquivo README do projeto. Você deve descrever aqui o seu projeto.
-Informe ao usuário (alguém que não sabe nada sobre este projeto!) tudo que
-ele/ela precisa saber. Os comentários devem incluir, pelo menos:
-------------------------------------------------------------------------
+ETAPA 3 – Herança e Polimorfismo
 
-TÍTULO DO PROJETO:
-OBJETIVO DO PROJETO:
-VERSÃO ou DATA:
-COMO INICIAR O PROJETO:
-AUTORES:
-INSTRUÇÕES PARA O USUÁRIO:
+Foram criadas 5 subclasses que estendem Loja, cada uma com um atributo extra:
+
+- Cosmetico → double taxaComercializacao
+
+- Vestuario → boolean produtosImportados
+
+- Bijuteria → double metaVendas
+
+- Alimentacao → Data dataAlvara
+
+- Informatica → double seguroEletronicos
+
+Todas elas:
+
+- Chamam o construtor da superclasse com super(...)
+
+- Possuem seus próprios getters, setters e toString() sobrescrito
