@@ -1,12 +1,23 @@
-----------------------------------------------------------------------------
-Este é o arquivo README do projeto. Você deve descrever aqui o seu projeto.
-Informe ao usuário (alguém que não sabe nada sobre este projeto!) tudo que
-ele/ela precisa saber. Os comentários devem incluir, pelo menos:
-------------------------------------------------------------------------
+ETAPA 2 – Associação entre Classes + Menu
 
-TÍTULO DO PROJETO:
-OBJETIVO DO PROJETO:
-VERSÃO ou DATA:
-COMO INICIAR O PROJETO:
-AUTORES:
-INSTRUÇÕES PARA O USUÁRIO:
+Classe Loja atualizada com os atributos:
+
+    -> Endereco endereco
+    
+    -> Data dataFundacao
+
+Classe Produto atualizada com:
+
+  - Data dataValidade
+  
+  - Método estaVencido(Data dataComparacao)
+
+Classe Principal criada com menu:
+
+(1) Criar loja
+
+(2) Criar produto
+
+(3) Sair
+
+- Após criação, verifica se o produto está vencido em 20/10/2023 e exibe a loja criada.
