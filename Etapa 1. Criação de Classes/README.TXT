@@ -1,4 +1,4 @@
-**ETAPA 1 – Criação das Classes Básicas**
+ETAPA 1 – Criação das Classes Básicas
 
 Nesta etapa foram criadas as classes iniciais do projeto:
 
