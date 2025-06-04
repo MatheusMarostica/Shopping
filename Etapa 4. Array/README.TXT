@@ -1,12 +1,27 @@
-----------------------------------------------------------------------------
-Este é o arquivo README do projeto. Você deve descrever aqui o seu projeto.
-Informe ao usuário (alguém que não sabe nada sobre este projeto!) tudo que
-ele/ela precisa saber. Os comentários devem incluir, pelo menos:
-------------------------------------------------------------------------
+ETAPA 4 – Arrays e Classe Shopping
 
-TÍTULO DO PROJETO:
-OBJETIVO DO PROJETO:
-VERSÃO ou DATA:
-COMO INICIAR O PROJETO:
-AUTORES:
-INSTRUÇÕES PARA O USUÁRIO:
+Classe Loja agora contém:
+
+  - Atributo Produto[] estoqueProdutos
+  
+  Métodos:
+  
+    - insereProduto(Produto p)
+    
+    - removeProduto(String nome)
+    
+    - imprimeProdutos()
+
+Nova classe Shopping criada com:
+
+  - Atributos: String nome, Endereco endereco, Loja[] lojas
+  
+  Métodos:
+  
+    - insereLoja(Loja loja)
+    
+    - removeLoja(String nome)
+    
+    - quantidadeLojasPorTipo(String tipo)
+    
+    - lojaSeguroMaisCaro() → retorna a loja Informatica com maior seguro
